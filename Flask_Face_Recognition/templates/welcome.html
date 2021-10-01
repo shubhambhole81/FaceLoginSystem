@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+    h1 {text-align: center;color: white;}
+    h2 {text-align: center;color: white;}
+    body {background-image: url("https://bit.ly/3CmfZz3");}
+   </style>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ </head>
+
+  <body>
+    <br><br><br><br><br>
+    <h1>Hii! {{user}}, Welcome to the world</h1>
+    <h2>Login Successfull</h2><br><br><br>
+    <div align="center">
+    <a href="{{ url_for('logout') }}" class="btn">Logout</a><br>
+    </div>
+  </body>
+
+
+</html>
