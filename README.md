@@ -14,4 +14,5 @@ Cmake    @https://cmake.org/download/
 VS Community Server with C++ libraries    @https://visualstudio.microsoft.com/downloads/
 
 To connect MySQL Database in python
+
 @conda install -c anaconda mysql-python  or @pip install MySQL-python
